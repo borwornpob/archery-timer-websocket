@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.container {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+
+    background: #000000;
+}
+
+.light {
+    position: absolute;
+    width: 141px;
+    height: 141px;
+    left: 28px;
+    top: 41px;
+    border-radius: 200%;
+    z-index: 2;
+}
+
+.red {
+    background: #ff0000;
+}
+
+.yellow {
+    background: #ffff00;
+}
+
+.green {
+    background: #008000;
+}
+
+.timer {
+    position: absolute;
+    width: 119px;
+    height: 116px;
+    left: 41px;
+    top: 233px;
+    font-size: 100px;
+    line-height: 116px;
+    z-index: 1;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+}
+
+.background_timer {
+    position: absolute;
+    width: 200px;
+    height: 720px;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    background: #00b3ff;
+}
+
+.name {
+    position: absolute;
+    height: 154px;
+    left: 249px;
+    right: 250px;
+    top: 40px;
+    font-size: 64px;
+    line-height: 77px;
+
+    font-family: "Inter", sans-serif;
+
+    color: #ffffff;
+}
+
+.club_container {
+    position: absolute;
+    width: 204px;
+    height: 205px;
+    left: 1076px;
+    top: 0px;
+
+    background: #d9d9d9;
+}
+
+.club {
+    position: absolute;
+    width: 131px;
+    height: 77px;
+    left: 1115px;
+    top: 61px;
+    z-index: 1;
+    font-size: 64px;
+    line-height: 77px;
+    font-family: "Inter", sans-serif;
+
+    color: #000000;
+}
+
+.score_1 {
+    position: absolute;
+    width: 105px;
+    height: 116px;
+    left: 249px;
+    top: 326px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 116px;
+
+    color: #ffffff;
+}
+
+.score_2 {
+    position: absolute;
+    width: 105px;
+    height: 116px;
+    left: 403px;
+    top: 326px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 116px;
+
+    color: #ffffff;
+}
+
+.score_3 {
+    position: absolute;
+    width: 105px;
+    height: 116px;
+    left: 557px;
+    top: 326px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 116px;
+
+    color: #ffffff;
+}
+
+.score_4 {
+    position: absolute;
+    width: 105px;
+    height: 116px;
+    left: 711px;
+    top: 326px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 116px;
+
+    color: #ffffff;
+}
+
+.score_5 {
+    position: absolute;
+    width: 105px;
+    height: 116px;
+    left: 865px;
+    top: 326px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 116px;
+
+    color: #ffffff;
+}
+
+.score_6 {
+    position: absolute;
+    width: 105px;
+    height: 116px;
+    left: 1019px;
+    top: 326px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 116px;
+
+    color: #ffffff;
+}
+
+.total_text {
+    position: absolute;
+    width: 201px;
+    height: 77px;
+    left: 249px;
+    bottom: 34px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #ffffff;
+}
+
+.total_score {
+    position: absolute;
+    width: 82px;
+    height: 54px;
+    left: 487px;
+    top: 609px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #ffffff;
+}
+
+.set_text {
+    position: absolute;
+    width: 306px;
+    height: 54px;
+    left: 647px;
+    bottom: 57px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #ffffff;
+}
+
+.set_score {
+    position: absolute;
+    width: 82px;
+    height: 54px;
+    left: 989px;
+    top: 609px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #ffffff;
+}

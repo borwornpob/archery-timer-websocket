@@ -1,0 +1,35 @@
+.traffic_light {
+    width: 342px;
+    height: 342px;
+    left: 1501px;
+    top: 71px;
+    position: "absolute";
+    border-radius: 200%;
+}
+.red {
+    background-color: #ff0000;
+    width: 342px;
+    height: 342px;
+    left: 1501px;
+    top: 71px;
+    border-radius: 200%;
+    position: fixed;
+}
+.yellow {
+    background-color: #ffff00;
+}
+.green {
+    background-color: #008000;
+    width: 342px;
+    height: 342px;
+    left: 1501px;
+    top: 71px;
+    position: fixed;
+    border-radius: 200%;
+}
+.container {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background: #000000;
+}
